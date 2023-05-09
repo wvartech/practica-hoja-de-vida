@@ -1,0 +1,96 @@
+html{
+  background-color: black;
+}
+
+body { 
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 25px;
+  display: Flex;
+  background-color:darkolivegreen;
+  flex-wrap: wrap;
+  width: 800px;    
+  padding: 10px;
+  justify-content: center;
+}
+
+img {
+  object-fit: none;
+  background-color: white;
+  padding: 5px  ;
+  margin: auto;
+  border-radius: 15px;
+  
+  
+}
+
+.photo {  
+  
+  
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  width: 50%;
+  height: 1100px;
+  background-color: aliceblue;
+  order: 1;  
+  margin-left: 20px;
+}
+
+ul li {
+  margin: 10px;
+}
+
+h1 {
+  order: -1;
+  width: 720px;
+  text-align: center;
+  background-color: darkblue;
+  margin: auto;
+  color: aliceblue;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.data h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  background-color: royalblue;
+  border-radius: 25px;
+  color: aliceblue;
+}
+
+.data {
+  margin-inline: 20px;
+}
+
+#contact, #abilities, #hobbies {
+  margin: 10px;
+  border: 1px solid black;
+  align-self: flex-end;
+}
+
+.sidebar{
+  color: aliceblue;
+  width: 300px;
+  height: 1100px;
+  flex-direction: column;  
+  align-items: flex-end;
+  background-color: royalblue;
+}
+
+.sidebar h2 {
+  text-align: center;
+  background-color: blue;
+  
+}
+
